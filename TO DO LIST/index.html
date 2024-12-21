@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h2>Just Do It</h2> 
+        
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="todo-container">
+        <div class="todo-input">
+            <input type="text" placeholder="ADD TASKS" name="Task" id="task-input">
+        </div><br>
+        
+        <!-- Date and Time Section -->
+        <div id="datetime">
+            <p id="date-time"></p>
+        </div>
+        
+        <button id="add-task-btn"> <i class="fas fa-plus-circle"></i> I GOT IT! </button>
+        <ul id="task-list"></ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 To-Do List | Designed with <i class="fas fa-heart"></i> by JUNAID ALI</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="JS/script.js"></script>
+    <!-- External Date and Time JavaScript -->
+    <script src="JS/datetime.js"></script> 
+</body>
+</html>
